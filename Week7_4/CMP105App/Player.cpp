@@ -10,6 +10,10 @@ Player::Player()
 
 Player::~Player()
 {
+	if (bullet != NULL)
+	{
+		delete bullet;
+	}
 }
 
 void Player::handleInput(float dt)
