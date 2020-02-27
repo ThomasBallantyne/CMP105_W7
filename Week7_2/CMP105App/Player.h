@@ -14,6 +14,7 @@ public:
 		return &bullet;
 	};
 
-private
+private:
 	Bullet bullet;
+	bool fire;
 };
